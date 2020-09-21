@@ -9,8 +9,12 @@ void pushbutton::begin(int serial,bool m , int p){
   pin=p;
   pinMode(pin,INPUT);
   if(msg){
-    Serial.print("PushButton library started with boad rate ");
-    Serial.print(serial);
+    Serial.println("pushbuttton library by amirmahdi esmailzadeh");
+    Serial.println("github.com/amirmahdi-boom/");
+    Serial.println("aparat.com/boomco/");
+    Serial.println("PushButton library started");
+    Serial.print("with boad rate ");
+    Serial.println(serial);
     Serial.print(" and ");
     Serial.print(m);
     Serial.println(" mode(0=GND connect 1=VCC connect");
